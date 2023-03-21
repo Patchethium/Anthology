@@ -6,11 +6,11 @@
 </script>
 
 <div
-  class="rounded-md min-h-min border border-gray-200 dark:border-gray-600 p-3 hover:ring-1 ring-blue-100 dark:ring-blue-500"
+  class="min-h-min rounded-md border border-gray-200 p-3 ring-blue-100 hover:ring-1 dark:border-gray-600 dark:ring-blue-500"
 >
   {#if name}
     <div class="text-lg font-bold">{name}</div>
-    <div class="w-full h-[1px] bg-gray-200 mb-1" />
+    <div class="mb-1 h-[1px] w-full bg-gray-200" />
   {/if}
 
   <div class="grid grid-flow-col font-light">

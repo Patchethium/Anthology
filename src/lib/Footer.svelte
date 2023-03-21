@@ -1,17 +1,17 @@
 <div
-  class="w-full h-auto bg-white border-t border-gray-200 dark:border-gray-600 py-3 px-6 flex flex-row bottom-0
-          text-gray-500 dark:text-gray-300 dark:bg-slate-900 decoration-blue-500 dark:decoration-blue-300"
+  class="bottom-0 flex h-auto w-full flex-row border-t border-gray-200 bg-white py-3 px-6 text-gray-500
+          decoration-blue-500 dark:border-gray-600 dark:bg-slate-900 dark:text-gray-300 dark:decoration-blue-300"
 >
   <div>Patchethium&#169;2022 All Rights Reserved</div>
   <div class="flex-1" />
   <a
-    class="hover:underline  flex flex-row gap-[3px] group"
+    class="group  flex flex-row gap-[3px] hover:underline"
     href="mailto:asguftuikh@gmail.com"
     target="_blank"
     rel="noopener noreferrer"
   >
     <svg
-      class="w-5 h-5 my-auto group-hover:text-blue-500 dark:group-hover:text-blue-300"
+      class="my-auto h-5 w-5 group-hover:text-blue-500 dark:group-hover:text-blue-300"
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"

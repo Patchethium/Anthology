@@ -22,9 +22,9 @@
              fully controllable, free and open source"
   />
 </svelte:head>
-<div class="w-full h-screen pt-12 bg-white dark:bg-slate-900 text-gray-700 dark:text-gray-200">
+<div class="h-screen w-full bg-white pt-12 text-gray-700 dark:bg-slate-900 dark:text-gray-200">
   <Header />
-  <div class="bg-white dark:bg-slate-900 shadow-slate-900 dark:shadow-gray-100 ">
+  <div class="bg-white shadow-slate-900 dark:bg-slate-900 dark:shadow-gray-100 ">
     <slot />
   </div>
   <Footer />

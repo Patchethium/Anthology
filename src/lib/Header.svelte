@@ -1,12 +1,12 @@
 <div
-  class="h-12 fixed w-full dark:bg-slate-900 dark:decoration-blue-300 border-b
-   border-gray-100 dark:border-slate-700 decoration-blue-500 dark:text-white
-    bg-white shadow-md top-0 left-0 flex flex-row items-center pl-6 pr-12 gap-4 z-10"
+  class="fixed top-0 left-0 z-10 flex h-12
+   w-full flex-row items-center gap-4
+    border-b border-gray-100 bg-white pl-6 pr-12 decoration-blue-500 shadow-md dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:decoration-blue-300"
 >
   <a
     href="/"
-    class="font-extrabold font-sans text-transparent bg-clip-text text-xl
-     bg-gradient-to-br from-indigo-400 to-pink-500 dark:to-slate-400 dark:from-indigo-400"
+    class="bg-gradient-to-br from-indigo-400 to-pink-500 bg-clip-text font-sans
+     text-xl font-extrabold text-transparent dark:from-indigo-400 dark:to-slate-400"
   >
     Anthe
   </a>
@@ -18,11 +18,11 @@
     href="https://github.com/Patchethium/Anthe"
     target="_blank"
     rel="noopener noreferrer"
-    class="flex flex-row gap-[3px] group"
+    class="group flex flex-row gap-[3px]"
   >
     Github
     <svg
-      class="w-4 h-4 my-auto group-hover:text-blue-500 dark:group-hover:text-blue-300"
+      class="my-auto h-4 w-4 group-hover:text-blue-500 dark:group-hover:text-blue-300"
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
