@@ -1,1 +1,3 @@
-<div class="p-3">About</div>
+<div class="p-6">
+  <div class="text-3xl font-bold">About Anthe</div>
+</div>
