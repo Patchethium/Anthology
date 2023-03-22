@@ -5,24 +5,24 @@
 >
   <a
     href="/"
-    class="bg-gradient-to-br from-indigo-400 to-pink-500 bg-clip-text font-sans
-     text-xl font-extrabold text-transparent dark:from-indigo-400 dark:to-slate-400"
+    class="bg-gradient-to-br from-indigo-400 to-pink-500 bg-clip-text font-sans !no-underline
+     text-2xl font-extrabold text-transparent dark:from-indigo-400 dark:to-slate-400"
   >
     Anthe
   </a>
   <div class="flex-1" />
-  <a href="/download">Download</a>
-  <a href="/gallery">Gallery</a>
-  <a href="/about">About</a>
+  <a class="text-lg" href="/download">Download</a>
+  <a class="text-lg" href="/gallery">Gallery</a>
+  <a class="text-lg" href="/blog/about">About</a>
   <a
     href="https://github.com/Patchethium/Anthe"
     target="_blank"
     rel="noopener noreferrer"
-    class="group flex flex-row gap-[3px]"
+    class="group flex flex-row gap-[3px] text-lg"
   >
     Github
     <svg
-      class="my-auto h-4 w-4 group-hover:text-blue-500 dark:group-hover:text-blue-300"
+      class="my-auto h-5 w-5 group-hover:text-blue-500 dark:group-hover:text-blue-300"
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"

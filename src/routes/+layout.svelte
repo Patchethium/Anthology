@@ -7,12 +7,14 @@
   />
 </svelte:head>
 
-<div class="h-screen w-full bg-white pt-12 text-gray-700 dark:bg-slate-900 dark:text-slate-200 flex flex-col">
+<div
+  class="flex h-screen w-full flex-col bg-white pt-12 text-gray-700 dark:bg-slate-900 dark:text-slate-200"
+>
   <Header />
   <div class="bg-white shadow-slate-900 dark:bg-slate-900 dark:shadow-gray-100">
     <slot />
   </div>
-  <div class="flex-1"/>
+  <div class="flex-1" />
   <Footer />
 </div>
 
@@ -27,7 +29,11 @@ $: {
   if (path.length == 0) {
     sub_title = '';
   } else {
-    sub_title = ` - ${path.charAt(0).toUpperCase() + path.slice(1)}`;
+    sub_title = '';
+    let paths = path.split('/');
+    paths.forEach((p) => {
+      sub_title = sub_title + ' / ' + p.charAt(0).toUpperCase() + p.slice(1);
+    });
   }
 }
 </script>
