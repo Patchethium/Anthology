@@ -7,11 +7,12 @@
   />
 </svelte:head>
 
-<div class="h-screen w-full bg-white pt-12 text-gray-700 dark:bg-slate-900 dark:text-gray-200">
+<div class="h-screen w-full bg-white pt-12 text-gray-700 dark:bg-slate-900 dark:text-slate-200 flex flex-col">
   <Header />
-  <div class="bg-white shadow-slate-900 dark:bg-slate-900 dark:shadow-gray-100 ">
+  <div class="bg-white shadow-slate-900 dark:bg-slate-900 dark:shadow-gray-100">
     <slot />
   </div>
+  <div class="flex-1"/>
   <Footer />
 </div>
 
