@@ -1,7 +1,7 @@
 <Card>
   {#if name}
     <div class="text-lg font-bold">{name}</div>
-    <div class="mb-1 h-[1px] w-full bg-gray-200" />
+    <div class="mb-2 mt-1 h-[1px] w-full bg-gray-200" />
   {/if}
 
   <div class="grid grid-flow-col font-light">

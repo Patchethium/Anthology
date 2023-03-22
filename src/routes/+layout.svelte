@@ -19,6 +19,7 @@
 import Footer from '$lib/Footer.svelte';
 import Header from '$lib/Header.svelte';
 import { page } from '$app/stores';
+import '../tailwind.css';
 let sub_title = '';
 $: {
   let path = $page.url.pathname.slice(1);
@@ -28,5 +29,4 @@ $: {
     sub_title = ` - ${path.charAt(0).toUpperCase() + path.slice(1)}`;
   }
 }
-import '../tailwind.css';
 </script>

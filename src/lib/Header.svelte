@@ -1,7 +1,7 @@
 <div
-  class="fixed top-0 left-0 z-10 flex h-12
-   w-full flex-row items-center gap-4
-    border-b border-gray-100 bg-white pl-6 pr-12 decoration-blue-500 shadow-md dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:decoration-blue-300"
+  class="fixed top-0 left-0 z-10 flex h-12 w-full flex-row items-center
+         gap-4 border-b border-gray-200 bg-white pl-6 pr-12 decoration-blue-500
+         dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:decoration-blue-300"
 >
   <a
     href="/"

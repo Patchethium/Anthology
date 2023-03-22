@@ -16,7 +16,7 @@
   <div class="relative top-0 block font-sans text-5xl font-bold text-white drop-shadow-md">
     Anthe<span class="pl-1 text-lg font-normal">alpha-1</span>
   </div>
-  <div class="font-serif text-2xl italic text-white drop-shadow-md mx-8">
+  <div class="mx-8 font-serif text-2xl italic text-white drop-shadow-md">
     <span class="underline">that</span> TTS you're looking for, fully controllable, free and open source
   </div>
   <div class="flex flex-row gap-0">
@@ -36,7 +36,7 @@
   </div>
 </div>
 
-<div class="grid md:grid-cols-3 sm:grid-cols-2 gap-4 px-12 pb-12 pt-0">
+<div class="grid gap-4 px-12 pb-12 pt-0 sm:grid-cols-2 md:grid-cols-3">
   <Card>
     <div class="title">Out-of-box</div>
     <div>Anthe only needs minium configuration to work</div>
@@ -45,7 +45,7 @@
     <div class="title">Cross Platform</div>
     <div>Get Anthe on Windows, Linux and OS X</div>
   </Card>
-  <Card >
+  <Card>
     <div class="title">Free</div>
     <div>Make model with your own voice!</div>
   </Card>
