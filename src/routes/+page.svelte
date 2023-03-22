@@ -9,7 +9,7 @@
   <img
     width="256"
     height="256"
-    src="/static/logo.png"
+    src={logo}
     alt="logo"
     class="h-40 w-auto drop-shadow-lg"
   />
@@ -54,6 +54,7 @@
 <script>
 import { goto } from '$app/navigation';
 import Card from './Card.svelte';
+import logo from "$assets/logo.png";
 </script>
 
 <style lang="postcss">
