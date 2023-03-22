@@ -41,7 +41,7 @@
 </div>
 
 <style lang="postcss">
-  a:hover {
-    @apply underline;
-  }
+a:hover {
+  @apply underline;
+}
 </style>

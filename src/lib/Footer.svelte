@@ -1,6 +1,6 @@
 <div
   class="bottom-0 flex h-auto w-full flex-row border-t border-gray-200 bg-white py-3 px-6 text-gray-500
-          decoration-blue-500 dark:border-gray-600 dark:bg-slate-900 dark:text-gray-300 dark:decoration-blue-300"
+       decoration-blue-500 dark:border-slate-700 dark:bg-slate-900 dark:text-gray-300 dark:decoration-blue-300"
 >
   <div>Patchethium&#169;2022 All Rights Reserved</div>
   <div class="flex-1" />

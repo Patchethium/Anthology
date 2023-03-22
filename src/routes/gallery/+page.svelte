@@ -1,7 +1,3 @@
-<script>
-  import Card from './Card.svelte';
-</script>
-
 <div class="p-6">
   <div class="text-3xl font-bold">Anthe Gallery</div>
 
@@ -18,3 +14,7 @@
     <Card />
   </div>
 </div>
+
+<script>
+import Card from './Card.svelte';
+</script>

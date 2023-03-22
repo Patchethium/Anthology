@@ -1,14 +1,10 @@
-<script>
-  import { goto } from '$app/navigation';
-</script>
-
 <svelte:head>
   <title>Anthe</title>
 </svelte:head>
 
 <div
   class="flex h-screen w-full -translate-y-12 flex-col items-center justify-center gap-4 bg-gradient-to-bl
-         from-indigo-300 to-pink-300 dark:from-indigo-900 dark:to-slate-800"
+       from-indigo-300 to-pink-300 dark:from-indigo-900 dark:to-slate-800"
 >
   <img
     width="256"
@@ -20,7 +16,7 @@
   <div class="relative top-0 block font-sans text-5xl font-bold text-white drop-shadow-md">
     Anthe<span class="pl-1 text-lg font-normal">alpha-1</span>
   </div>
-  <div class="font-serif text-2xl italic text-white drop-shadow-md">
+  <div class="font-serif text-2xl italic text-white drop-shadow-md mx-8">
     <span class="underline">that</span> TTS you're looking for, fully controllable, free and open source
   </div>
   <div class="flex flex-row gap-0">
@@ -40,38 +36,31 @@
   </div>
 </div>
 
-<div class="flex gap-4 px-12 pb-8">
-  <div class="card">
+<div class="grid md:grid-cols-3 sm:grid-cols-2 gap-4 px-12 pb-12 pt-0">
+  <Card>
     <div class="title">Out-of-box</div>
     <div>Anthe only needs minium configuration to work</div>
-    <button>Learn More</button>
-  </div>
-  <div class="card">
+  </Card>
+  <Card url="/download">
     <div class="title">Cross Platform</div>
     <div>Get Anthe on Windows, Linux and OS X</div>
-    <button>Learn More</button>
-  </div>
-  <div class="card">
+  </Card>
+  <Card >
     <div class="title">Free</div>
     <div>Make model with your own voice!</div>
-    <button>Learn More</button>
-  </div>
+  </Card>
 </div>
 
+<script>
+import { goto } from '$app/navigation';
+import Card from './Card.svelte';
+</script>
+
 <style lang="postcss">
-  .card {
-    @apply flex h-auto w-1/3 flex-col items-center rounded-xl border border-gray-100 px-8 py-6 dark:border-gray-500;
-  }
-  .card:hover {
-    @apply shadow-md dark:shadow-gray-700;
-  }
-  .card > .title {
-    @apply text-lg font-bold;
-  }
-  .card > button {
-    @apply m-5 mr-auto h-auto w-auto rounded-full bg-blue-500 p-2 px-4 font-sans text-sm font-bold text-white;
-  }
-  button:hover {
-    @apply shadow-md brightness-110;
-  }
+.title {
+  @apply text-lg font-bold;
+}
+button:hover {
+  @apply shadow-md brightness-110;
+}
 </style>
