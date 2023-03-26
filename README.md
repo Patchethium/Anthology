@@ -1,6 +1,6 @@
-# Anthe Home
+# Anthology
 
-Home page for Anthe the TTS software, we use svelte kit and tailwind css here.
+Landing page and package repository for Anthe the TTS app, we use sveltekit and tailwind css here.
 
 ## Development
 

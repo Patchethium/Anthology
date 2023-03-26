@@ -6,13 +6,7 @@
   class="flex h-screen w-full -translate-y-12 flex-col items-center justify-center gap-4 bg-gradient-to-bl
        from-indigo-300 to-pink-300 dark:from-indigo-900 dark:to-slate-800"
 >
-  <img
-    width="256"
-    height="256"
-    src={logo}
-    alt="logo"
-    class="h-40 w-auto drop-shadow-lg"
-  />
+  <img width="256" height="256" src={logo} alt="logo" class="h-40 w-auto drop-shadow-lg" />
   <div class="relative top-0 block font-sans text-5xl font-bold text-white drop-shadow-md">
     Anthe<span class="pl-1 text-lg font-normal">alpha-1</span>
   </div>
@@ -54,7 +48,7 @@
 <script>
 import { goto } from '$app/navigation';
 import Card from './Card.svelte';
-import logo from "$assets/logo.png";
+import logo from '$assets/logo.png';
 </script>
 
 <style lang="postcss">

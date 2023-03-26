@@ -5,8 +5,8 @@
 >
   <a
     href="/"
-    class="bg-gradient-to-br from-indigo-400 to-pink-500 bg-clip-text font-sans !no-underline
-     text-2xl font-extrabold text-transparent dark:from-indigo-400 dark:to-slate-400"
+    class="bg-gradient-to-br from-indigo-400 to-pink-500 bg-clip-text font-sans text-2xl
+     font-extrabold text-transparent !no-underline dark:from-indigo-400 dark:to-slate-400"
   >
     Anthe
   </a>

@@ -2,7 +2,7 @@
   <title>Anthe{sub_title}</title>
   <meta
     name="description"
-    content="Anthe is an out-of-box TTS software, 
+    content="Anthe is an out-of-box TTS app, 
              fully controllable, free and open source"
   />
 </svelte:head>
